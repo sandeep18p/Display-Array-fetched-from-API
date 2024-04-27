@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading{
+    
+    text-align: center;
+    color: white;
+}
+
+#zed{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+.one{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    /* display: flex; */
+    
+}
+
+.one button{
+    width: 30vh;
+    height: 10vh;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.element{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    font-size: small;
+    /* margin-left: 40px; */
+   margin: 20px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .post h2 {
+    color: #333;
+  }
+  .post p {
+    color: #666;
+  }
+  .post-tags {
+    margin-top: 10px;
+  }
+  .post-tags span {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 8px;
+    background-color: #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #333;
+  }
+  .post-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+
+
+  #container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .completed {
+    color: #28a745;
+    font-weight: bold;
+  }
+  .incomplete {
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+
+  .containerx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .product {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .product .img1 {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .brand{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .category{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .discount {
+    color: red;
+  }
+  
+  .stock {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .images-section {
+    margin-top: 10px;
+    display: flex; 
+    width: 300px;
+    /* height:200px */
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+  
+  }
+  
+  .small-image {
+    border: 1px solid black;
+    border-radius: 5px ;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    /* padding: 5px; */
+    object-fit: contain;
+  }
+  
+  
+  .hello{
+    color: black;
+  }
+  @media (max-width: 858px) {
+    #btn{
+      display:flex;
+      justify-content: center;
+    }
+    #bt1,
+  #bt2,
+  #bt3 {
+     margin:auto;
+      font-size: small;
+      width: 20%; 
+      min-width: 170px;
+      box-sizing: border-box; 
+      padding: 5px; 
+    }
+  }
+
+  @media (max-width: 720px) {
+   
+    #bt1,
+  #bt2,
+  #bt3 {  
+    padding: 5px; 
+    width: 170px;
+    font-size: small;
+    /* width: 20%;  */
+    min-width: 170px;
+    box-sizing: border-box; 
+    padding: 3px;
+  } }
+
+  @media (max-width: 557px) {
+
+   #btn{
+    display: flex;
+    flex-direction: column;
+   }
+
+    #bt1,
+  #bt2,
+  #bt3 {  
+    width: 140px;
+    
+  }
+
+}
+
+.top{
+  color: black;
+}
